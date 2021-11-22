@@ -94,7 +94,7 @@ h1, h2 {
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 300px;
@@ -192,9 +192,9 @@ hr {
 /* event times */
 #times {
     background-image: url('../images/dublin-city.webp');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     width: 100%;
     overflow: hidden;
 }
@@ -291,4 +291,29 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+}
+
+#cover-text {
+    left: 0;
+}
+
+#club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+
+.left-about-heading, .right-about-heading {
+    width: inherit;
+}
+
+.left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.left-about-heading p, .right-about-heading p {
+    text-align: center;
+    padding: 0 20px;
 }
