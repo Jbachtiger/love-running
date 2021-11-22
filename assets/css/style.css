@@ -8,12 +8,12 @@
 }
 
 body {
-    font-family: "lato", sans-serif;
+    font-family: lato, sans-serif;
     font-weight: 300px;
-    color: #3A3A3A;
+    color: #3a3a3a;
 }
 
-/* Headings and logos */
+/* headings and logos */
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -28,7 +28,7 @@ h1, h2 {
 
 /* navigation links */
 #menu {
-    font: size 110%;
+    font-size: 110%;
     letter-spacing: 4px;
 }
 
@@ -38,11 +38,8 @@ h1, h2 {
     margin-right: 30px;
 }
 
-menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
-    margin-left: 30px;
-
 }
 
 #menu a {
@@ -105,7 +102,7 @@ menu,
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgb(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, .7);
 
     bottom: 30px;
     right: 150px;
@@ -133,13 +130,13 @@ menu,
 
 #center-about {
     width: 33%;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -160,11 +157,11 @@ hr {
 
 }
 
-.right-about-heading, h2 {
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading, p {
+.right-about-heading p {
     text-align: right;
 }
 
@@ -175,7 +172,7 @@ hr {
 }
 
 #circle-container {
-    width:300px;
+    width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
@@ -193,11 +190,11 @@ hr {
 
 /* event times */
 #times {
-    background-image: url(../images/dublin-city.webp);
-    background-repeat: no repeat; 
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat; 
     background-size: cover;
     background-position: center; 
-    width:100%;
+    width: 100%;
     overflow: hidden;
 }
 
