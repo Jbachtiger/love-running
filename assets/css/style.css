@@ -8,8 +8,8 @@
 }
 
 body {
-    font-family: lato, sans-serif;
-    font-weight: 300px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
     color: #3a3a3a;
 }
 
@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -200,8 +201,8 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color:rgba(0, 0, 0, .6);
-    width:20%;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
@@ -248,9 +249,9 @@ footer {
 
 /* media queries */
 
-/* from larger to medium screen sizes wide and down */
+/* for larger to medium screen sizes wide and down */
 @media screen and (max-width: 1200px) {
-    #clubethos {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -277,5 +278,17 @@ footer {
 
     hr {
         display: none;
+    }
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
